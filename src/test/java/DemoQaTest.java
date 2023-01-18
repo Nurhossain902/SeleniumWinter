@@ -3,10 +3,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
+import java.time.Duration;
 
 public class DemoQaTest {
     WebDriver driver;
@@ -26,6 +30,7 @@ public class DemoQaTest {
     @Test
     void testingElement(){
         // Click on the Element Menu
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         By elementLocator = new By.ByCssSelector(".mt-4:first-child");
         WebElement element = driver.findElement(elementLocator);
         element.click();
@@ -33,6 +38,7 @@ public class DemoQaTest {
 
         //Header element
         headerLocator = new By.ByCssSelector(".main-header");
+        wait.until(ExpectedConditions.visibilityOfElementLocated ( headerLocator ));
         header = driver.findElement(headerLocator);
         headerText = header.getText();
         Assert.assertEquals(headerText, "Elements");
@@ -51,7 +57,7 @@ public class DemoQaTest {
         WebElement forms = driver.findElement(formsLocator);
         forms.click();
 
-        header = driver.findElement(headerLocator);
+        header = driver.findElement(By.className("main-header"));
         headerText = header.getText();
         Assert.assertEquals(headerText, "Forms");
     }
