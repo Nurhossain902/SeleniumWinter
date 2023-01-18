@@ -22,7 +22,6 @@ public class DemoqaLoginPractice {
         driver.manage().window().maximize();
 
     }
-
     @Test
     void nevigateToLoginPage() throws InterruptedException {
         DriverUtil.clickUsingJS(driver.findElement(homePage.bookStore));
