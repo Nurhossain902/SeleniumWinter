@@ -1,5 +1,8 @@
 package WayToAutomation;
 
+
+import com.opencsv.CSVReader;
+import com.opencsv.exceptions.CsvValidationException;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,6 +13,9 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class RegistrationFormTest {
@@ -23,7 +29,13 @@ public class RegistrationFormTest {
     }
 
     @Test
-    void completeRegistration() throws InterruptedException {
+    void completeRegistration() throws InterruptedException, IOException, CsvValidationException {
+        String absolutePath = "C:\\Users\\Shobo\\IdeaProjects\\SeleniumWinter\\TestData\\MOCK_DATA.csv";
+        CSVReader csvReader = new CSVReader(new FileReader(absolutePath));
+        String[] cells = csvReader.readNext();
+
+
+
         By regLlink = new By.ByCssSelector(".linkbox:nth-child(5) a");
         WebElement regLinkElement = driver.findElement(regLlink);
         Thread.sleep(3000);
@@ -38,7 +50,8 @@ public class RegistrationFormTest {
         //Locator for first name
         By firstName = new By.ByCssSelector("fieldset:first-child p:first-child input");
         WebElement firstNameEl = driver.findElement(firstName);
-        firstNameEl.sendKeys("Donald");
+//        firstNameEl.sendKeys("Donald");
+        firstNameEl.sendKeys(cells[0].split(" ")[0]);
 
         By lastName = new By.ByCssSelector("fieldset:first-child p:last-child input");
         WebElement lastNameEl = driver.findElement(lastName);
@@ -106,6 +119,6 @@ public class RegistrationFormTest {
 
     @AfterClass
     void wrapUp(){
-//        driver.quit();
+        driver.quit();
     }
 }
