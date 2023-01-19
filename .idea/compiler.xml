@@ -9,5 +9,8 @@
         <module name="SeleniumWinter" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SeleniumWinter" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>

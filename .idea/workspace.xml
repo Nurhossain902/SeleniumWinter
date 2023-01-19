@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2829a9f2-9738-4f1d-a22b-7aa95be45cbf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/DriverUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/BookStorePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/DemoQAHomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/SauceProductsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/SaucedemoHomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/SelectMenuPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DemoQA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DemoQaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Google101.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WayToAutomation/Alert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WayToAutomation/DemoqaLoginPractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WayToAutomation/PracticeForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WayToAutomation/SaucedemoPracticeLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WayToAutomation/SelectMenuTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/extent.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/html-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/the_internet/DynamicLoading.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2IsdC9QeXJSTzVOSpg4dhP2oFx6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Shobo/IdeaProjects/SeleniumWinter/src/test&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Shobo\IdeaProjects\SeleniumWinter\src\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.RegistrationFormTest">
+    <configuration name="JavaFakertest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaFakertest" />
+      <module name="SeleniumWinter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoqaLoginPractice.nevigateToLoginPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWinter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WayToAutomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WayToAutomation" />
+      <option name="MAIN_CLASS_NAME" value="WayToAutomation.DemoqaLoginPractice" />
+      <option name="METHOD_NAME" value="nevigateToLoginPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicLoading" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWinter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="the_internet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="the_internet" />
+      <option name="MAIN_CLASS_NAME" value="the_internet.DynamicLoading" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationFormTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWinter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WayToAutomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WayToAutomation" />
+      <option name="MAIN_CLASS_NAME" value="WayToAutomation.RegistrationFormTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationFormTest.completeRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWinter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WayToAutomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WayToAutomation" />
+      <option name="MAIN_CLASS_NAME" value="WayToAutomation.RegistrationFormTest" />
+      <option name="METHOD_NAME" value="completeRegistration" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.RegistrationFormTest" />
+        <item itemvalue="Application.JavaFakertest" />
+        <item itemvalue="TestNG.DynamicLoading" />
+        <item itemvalue="TestNG.RegistrationFormTest.completeRegistration" />
+        <item itemvalue="TestNG.DemoqaLoginPractice.nevigateToLoginPage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2829a9f2-9738-4f1d-a22b-7aa95be45cbf" name="Changes" comment="" />
+      <created>1670974100608</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670974100608</updated>
+      <workItem from="1670974102841" duration="3076000" />
+      <workItem from="1671146015264" duration="7167000" />
+      <workItem from="1671463487024" duration="1637000" />
+      <workItem from="1671490686646" duration="305000" />
+      <workItem from="1671577317532" duration="9394000" />
+      <workItem from="1671661597611" duration="9243000" />
+      <workItem from="1671749351935" duration="10016000" />
+      <workItem from="1672095207104" duration="4520000" />
+      <workItem from="1672176268146" duration="12880000" />
+      <workItem from="1672266927019" duration="11575000" />
+      <workItem from="1672329052013" duration="6749000" />
+      <workItem from="1672351696970" duration="8383000" />
+      <workItem from="1672609711339" duration="8429000" />
+      <workItem from="1672697976437" duration="10811000" />
+      <workItem from="1672785937196" duration="3342000" />
+      <workItem from="1672791264784" duration="3155000" />
+      <workItem from="1672872743255" duration="387000" />
+      <workItem from="1672873241490" duration="3617000" />
+      <workItem from="1672959074775" duration="5187000" />
+      <workItem from="1673220716902" duration="4842000" />
+      <workItem from="1673304213641" duration="2229000" />
+      <workItem from="1673390627815" duration="9826000" />
+      <workItem from="1673478110345" duration="3542000" />
+      <workItem from="1673563798598" duration="4368000" />
+      <workItem from="1673897850960" duration="6991000" />
+      <workItem from="1673909589952" duration="5705000" />
+      <workItem from="1673994251936" duration="2464000" />
+      <workItem from="1674051275849" duration="3030000" />
+      <workItem from="1674081580158" duration="7558000" />
+      <workItem from="1674090987684" duration="817000" />
+      <workItem from="1674091818948" duration="381000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.seleniumhq.selenium:selenium-java" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
