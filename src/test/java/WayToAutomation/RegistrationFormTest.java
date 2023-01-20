@@ -17,6 +17,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class RegistrationFormTest {
     WebDriver driver;
@@ -33,6 +34,7 @@ public class RegistrationFormTest {
         String absolutePath = "C:\\Users\\Shobo\\IdeaProjects\\SeleniumWinter\\TestData\\MOCK_DATA.csv";
         CSVReader csvReader = new CSVReader(new FileReader(absolutePath));
         String[] cells = csvReader.readNext();
+        System.out.println(cells[0]);
 
 
 
@@ -55,7 +57,7 @@ public class RegistrationFormTest {
 
         By lastName = new By.ByCssSelector("fieldset:first-child p:last-child input");
         WebElement lastNameEl = driver.findElement(lastName);
-        lastNameEl.sendKeys("Trump");
+        lastNameEl.sendKeys(cells[0].split(" ")[1]);
 
         By maritalStatus = new By.ByCssSelector("fieldset:nth-child(2) .radio_wrap  input");
         WebElement maritalStatusEl = driver.findElement(maritalStatus);
@@ -68,6 +70,8 @@ public class RegistrationFormTest {
         By country = new By.ByCssSelector("fieldset:nth-child(4) select");
         Select countrySelect = new Select(driver.findElement(country));
         countrySelect.selectByVisibleText("India");
+
+        String dob = cells[3];
 
         By month = new By.ByCssSelector(".time_feild:nth-child(2) select");
         Select monthSelect = new Select(driver.findElement(month));
@@ -119,6 +123,6 @@ public class RegistrationFormTest {
 
     @AfterClass
     void wrapUp(){
-        driver.quit();
+       // driver.quit();
     }
 }

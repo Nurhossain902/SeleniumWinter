@@ -18,18 +18,6 @@ public class SelectMenuTest {
         selectPage = new SelectMenuPage();
         driver.get( selectPage.pageUrl );
     }
-
-    @Test
-    void testSingleSelect(){
-        DriverUtil.selectByVisibleText( selectPage.singleSelectLocator, "Black" );
-    }
-
-    @Test
-    void testMultiSelect(){
-        DriverUtil.selectByVisibleText( selectPage.multiSelectLocator, "Audi" );
-        DriverUtil.selectByVisibleText( selectPage.multiSelectLocator, "Volvo" );
-    }
-
     @Test
     void testFistDropdown(){
         WebElement dropdown = driver.findElement( selectPage.firstSelectLocator );
@@ -38,6 +26,19 @@ public class SelectMenuTest {
         WebElement option = driver.findElement( selectPage.firstSelectOption );
         option.click();
     }
+
+    @Test
+    void testSingleSelect(){
+        DriverUtil.selectByVisibleText( selectPage.singleSelectLocator, "Black" );
+    }
+
+    @Test
+    void testMultiSelect(){
+        DriverUtil.selectByVisibleText( selectPage.multiSelectLocator, "Saab" );
+        DriverUtil.selectByVisibleText( selectPage.multiSelectLocator, "Opel" );
+    }
+
+
 
     @AfterClass
     void wrapUp() throws InterruptedException {
